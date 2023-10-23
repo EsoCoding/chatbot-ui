@@ -19,6 +19,10 @@ export enum PluginName {
   GOOGLE_SEARCH = 'Google Search',
 }
 
+export enum PluginName {
+  OPENROUTER = 'OpenRouter.ai'
+}
+
 export const Plugins: Record<PluginID, Plugin> = {
   [PluginID.GOOGLE_SEARCH]: {
     id: PluginID.GOOGLE_SEARCH,
